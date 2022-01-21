@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(255, 255, 255);
+}
+
+.deleteButton{
+  padding: 8px 5px;
+  background: red;
+  border: 1px solid red;
+  border-radius:10px;
+  color:white;
+  cursor: pointer;
+}
+.deleteButton:hover{
+  background: rgb(179, 2, 2);
+}
+.putButton{
+  background: orange;
+  border: 1px solid orange;
+  border-radius:10px;
+  color:white;
+  cursor: pointer;
+}
+.putButton:hover{
+  background: rgb(214, 140, 1);
+}
+.createButton{
+  padding: 8px 5px;
+  background:green;
+  border: 1px solid green;
+  border-radius:10px;
+  color:white;
+  cursor: pointer;
+}
+.createButton:hover{
+  background: rgb(1, 105, 1);
+}

@@ -1,0 +1,42 @@
+.input{
+    width: 100%;
+    height: var(--height-input);
+    background:#fff;
+    
+    padding: 20px 20px;
+    display : flex;
+justify-content: space-around;
+gap:10px;
+}
+
+
+.chatMessageInput{
+    padding: 10px ;
+    flex-grow:20;
+    flex-basis: 40px;
+    border:1px solid rgba(134, 142, 153, 0.1);
+    border-radius:30px;
+    background-color:rgba(134, 142, 153, 0.1);
+        resize: none;
+        color: black;
+        outline: none;
+     
+}
+
+.chatMessageInput::placeholder {
+    color: black;
+    font-size: 1em;
+  }
+  /* .chatMessageInput::actie{
+      border:none;
+  } */
+.chatMessageSubmit{
+    flex-grow:1;
+    flex-basis: 40px;
+    background-color:#1877f2;
+    border:1px solid #1877f2;
+    border-radius:20px;
+    color:#fff;
+    cursor: pointer;
+
+}

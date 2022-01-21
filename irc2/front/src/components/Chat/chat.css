@@ -1,0 +1,15 @@
+
+.chatBox{ 
+  overflow: auto;
+  height:calc(100vh - (var(--height-infobar) + var(--height-input)));
+}
+
+  .chatWrapper {
+   
+    display:flex;
+    flex-direction: column;
+    padding: 0 30px;
+    
+  }
+ 
+ 
